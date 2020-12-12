@@ -606,7 +606,8 @@ template {
 }
 
 .is-hidden {
-	display: none;
+	position: absolute;
+	top: -100%;
 }
 
 @keyframes glowing {
